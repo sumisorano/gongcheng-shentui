@@ -122,9 +122,19 @@ lifecycle:
 ```
 gongcheng-shentui/
 ├── README.md                         # 本文档（快速开始）
+├── CHANGELOG.md                      # 版本记录
 ├── DESIGN.md                         # 设计文档（为什么这么设计）
+├── CONTRIBUTING.md                   # 贡献指南
+├── CODE_OF_CONDUCT.md                # 行为准则
+├── SECURITY.md                       # 安全策略
+├── LICENSE                           # GPL-3.0
 ├── docs/
 │   └── STRATEGY.md                   # 实战策略（什么时候该做什么）
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md             # Bug 报告模板
+│   │   └── feature_request.md        # 功能建议模板
+│   └── PULL_REQUEST_TEMPLATE.md      # PR 模板
 ├── .claude/
 │   └── commands/
 │       ├── ctx-check.md              # /ctx-check 命令
