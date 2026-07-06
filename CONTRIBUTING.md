@@ -12,8 +12,8 @@
 
 ### 🐛 报告 Bug
 
-1. 先搜一下 [Issues](https://github.com/sumisorano/gongcheng-shentui/issues) 有没有人报过
-2. 如果没找到，用 [Bug Report 模板](https://github.com/sumisorano/gongcheng-shentui/issues/new?template=bug_report.md) 提交
+1. 先搜一下 [Issues](https://github.com/sumisorano/ctx-lifecycle/issues) 有没有人报过
+2. 如果没找到，用 [Bug Report 模板](https://github.com/sumisorano/ctx-lifecycle/issues/new?template=bug_report.md) 提交
 3. 描述清楚：
    - Claude Code 版本（`claude --version`）
    - 你的对话场景（加载了几个 Skill、多少轮）
@@ -22,7 +22,7 @@
 
 ### 💡 提功能建议
 
-用 [Feature Request 模板](https://github.com/sumisorano/gongcheng-shentui/issues/new?template=feature_request.md) 提交。
+用 [Feature Request 模板](https://github.com/sumisorano/ctx-lifecycle/issues/new?template=feature_request.md) 提交。
 
 特别感兴趣的方向：
 - 跨平台适配方案（Hermes / OpenClaw 等）

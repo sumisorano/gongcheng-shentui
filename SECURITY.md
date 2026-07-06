@@ -12,6 +12,6 @@
 
 ### 报告方式
 
-请直接在 GitHub 上提交 [Issue](https://github.com/sumisorano/gongcheng-shentui/issues)。
+请直接在 GitHub 上提交 [Issue](https://github.com/sumisorano/ctx-lifecycle/issues)。
 
 如果是敏感安全问题（不适合公开讨论），可以在 Issue 中注明 `[SECURITY]`，我们会优先处理。

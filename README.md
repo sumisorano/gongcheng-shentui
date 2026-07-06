@@ -4,6 +4,11 @@
 
 **Claude Code Skill 上下文生命周期管理。让用完的 Skill 体面离开，不赖着占 token。**
 
+> 🔧 **Skill lifecycle management for Claude Code.**  
+> Keep your context lean. Retire completed skills, reclaim ~20k tokens.  
+> `/ctx-check` · `/ctx-clean` · Skill lifecycle templates  
+> [English](README.md) | [中文](README.md)
+
 ---
 
 ## 解决了什么问题
