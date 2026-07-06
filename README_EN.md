@@ -113,13 +113,13 @@ Assuming 3 sessions/day, 22 working days/month:
 |-------|-----------------|---------------------|--------------------|--------|
 | Claude Opus 4 | $15.00 | 1.32M | **$19.80** | $238 |
 | Claude Sonnet 4 | $3.00 | 1.32M | **$3.96** | $48 |
-| DeepSeek V4 Flash | ¥0.5 | 1.32M | **¥0.66** | ¥8 |
+| DeepSeek V4 Flash | ¥0.5 (off-peak) → ¥1.0 (peak) | 1.32M | **¥0.66~1.32** | ¥8~16 |
 
 ### Team savings
 
 | Model | 10-person team / month | 10-person team / year |
 |-------|----------------------|---------------------|
-| DeepSeek | ¥6.6 | ¥80 |
+| DeepSeek | ¥6.6~13.2 | ¥80~160 |
 | Claude Sonnet | **$39.60** | **$475** |
 | Claude Opus | **$198** | **$2,376** 🚀 |
 
