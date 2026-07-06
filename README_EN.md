@@ -103,6 +103,8 @@ Both commands are pure prompt engineering — no external tools, no Claude Code 
 
 ## ROI
 
+> **Benchmark:** 4 completed skills reclaimed (~800 tokens each in rules + `/compact` conversation compression), releasing ~18k–22k tokens per cleanup. Assuming 3 sessions/day, 22 working days/month.
+
 One-click reclamation saves **~20k tokens per cleanup**. What does that mean in real money?
 
 ### Monthly savings (single user)
