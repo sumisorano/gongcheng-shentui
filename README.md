@@ -7,6 +7,8 @@
 > 🔧 **Skill lifecycle management for Claude Code.**  
 > Keep your context lean. Retire completed skills, reclaim ~20k tokens.  
 > `/ctx-check` · `/ctx-clean` · Skill lifecycle templates  
+>
+> [🇬🇧 English](README_EN.md) | [🇨🇳 中文](README.md)
 
 ---
 
