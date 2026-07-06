@@ -4,17 +4,23 @@
 
 **Skill lifecycle management for Claude Code. Keep your context lean by retiring completed skills.**
 
+> **Claude Code slow? Context too large?** Dead skills pile up silently and bloat every response. `ctx-lifecycle` automatically reclaims their tokens and restores response speed.  
+>
+> Improve Claude Code performance · Reduce context size · Manage skill lifecycle
+
 > [🇬🇧 English](README_EN.md) | [🇨🇳 中文](README.md)
 
 ---
 
 ## The Problem
 
-Once loaded, a Skill's SKILL.md stays in the conversation forever — even after it's done. Every subsequent turn pays for that dead weight.
+**Is Claude Code getting slower with each turn?** The culprit is often not the model — it's the skills silently consuming your context budget.
+
+Once loaded, a Skill's SKILL.md stays in the conversation forever — even after it's done. Every subsequent turn pays for that dead weight. This is a common cause of **context bloat** in Claude Code.
 
 In long sessions with multiple skills: load `code-review` in turn 5, `deploy-check` in turn 8, `api-docs` in turn 12... three skills add up to ~10–20k tokens of rules you no longer need — sometimes more than the conversation itself.
 
-**`ctx-lifecycle` gives completed skills an honorable exit.**
+**`ctx-lifecycle` reclaims that wasted context — helping you optimize Claude Code's performance and keep your sessions fast.**
 
 ---
 

@@ -4,7 +4,10 @@
 
 **Claude Code Skill 生命周期管理。让用完的 Skill 体面离开，不赖着占 token。**
 
+> 还在为 **Claude Code 越用越卡、响应变慢** 而烦恼？过度加载 Skill 导致上下文膨胀、token 暴增。`ctx-lifecycle` 帮你自动回收已完成 Skill，保持上下文清爽。  
+>
 > 🔧 **Skill lifecycle management for Claude Code.**  
+> **Claude Code slow? Context too large?** Dead skills pile up and eat tokens every turn.  
 > Keep your context lean. Retire completed skills, reclaim ~20k tokens.  
 > `/ctx-check` · `/ctx-clean` · Skill lifecycle templates  
 >
@@ -14,11 +17,13 @@
 
 ## 解决了什么问题
 
-Claude Code 的 Skill 激活后，SKILL.md 全文会进入对话历史。任务完成后它也不走——每轮都跟着传给大模型，白白浪费 token。
+**Claude Code 越用越卡、响应越来越慢？** 很多时候不是因为模型本身，而是 Skill 在后台吃 token。
+
+Claude Code 的 Skill 激活后，SKILL.md 全文会进入对话历史。任务完成后它也不走——每轮都跟着传给大模型，白白浪费 token。这就是 **上下文膨胀** 的常见原因之一。
 
 长对话 + 多 Skill 场景下尤其严重：第 5 轮加载 code-review、第 8 轮加载 deploy-check、第 12 轮加载 api-docs……三个 Skill 加起来一两万 token，可能比对话本身还大，而它们早就完成任务了。
 
-**功成身退就是来给 Skill 画句号的。**
+**功成身退就是来给 Skill 画句号的——帮你优化 Claude Code 响应速度，管好上下文里的 Skill 生命周期。**
 
 ---
 
