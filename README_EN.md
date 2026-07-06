@@ -101,6 +101,41 @@ Both commands are pure prompt engineering — no external tools, no Claude Code 
 
 ---
 
+## ROI
+
+One-click reclamation saves **~20k tokens per cleanup**. What does that mean in real money?
+
+### Monthly savings (single user)
+
+Assuming 3 sessions/day, 22 working days/month:
+
+| Model | Input price / 1M | Tokens saved / month | Money saved / month | Yearly |
+|-------|-----------------|---------------------|--------------------|--------|
+| DeepSeek V4 Flash | ¥0.5 | 1.32M | **¥0.66** | ¥8 |
+| Claude Sonnet 4 | $3.00 | 1.32M | **$3.96** | $48 |
+| Claude Opus 4 | $15.00 | 1.32M | **$19.80** | $238 |
+
+### Team savings
+
+| Model | 10-person team / month | 10-person team / year |
+|-------|----------------------|---------------------|
+| DeepSeek | ¥6.6 | ¥80 |
+| Claude Sonnet | **$39.60** | **$475** |
+| Claude Opus | **$198** | **$2,376** 🚀 |
+
+### Beyond money
+
+| Benefit | Detail |
+|---------|--------|
+| ⏱️ **Speed** | From >60s timeout down to <15s — **4× faster** |
+| 🧠 **Effective context** | Dead skills don't crowd the window; model focuses on what matters |
+| 🛡️ **No wall-hitting** | Stay fast at 50+ turns without losing context to a new session |
+| 🪙 **Quota efficiency** | Pro users get more done within their monthly limit |
+
+> 💡 DeepSeek is cheap — the real win is time, not token cost. For Claude Opus users, each 20k tokens saved ≈ $0.30.
+
+---
+
 ## Strategy
 
 Tools alone aren't enough — you need to know **when** to use them.
